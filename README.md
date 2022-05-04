@@ -31,7 +31,7 @@ The program has been tested in the following environment:
     |-- config.py           // hyperparameters
 	|-- customer_layers.py  // code for aggregation, PFI, and action
 	|-- encoder.py          // code for encoder
-	|-- main.py             // 
+	|-- main.py             // train and test
 	|-- model.py            // code for environment, agent, and predictor
 	|-- util.py             //
 
