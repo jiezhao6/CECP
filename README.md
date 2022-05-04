@@ -22,22 +22,22 @@ The program has been tested in the following environment:
     |-- CEs/                // raw data of constitutive elements
     |-- criminal/           // raw data of criminal dataset
     |-- cail/               // raw data of cail dataset
-	|-- processed_data/     // processed data, represented by wordID
-	|-- README.md
+    |-- processed_data/     // processed data, represented by wordID
+    |-- README.md
 
 |-- logs/                   // folder to store results and training logs
 
 |-- model/                  // code for training and testing
     |-- config.py           // hyperparameters
-	|-- customer_layers.py  // code for aggregation, PFI, and action
-	|-- encoder.py          // code for encoder
-	|-- main.py             // train and test
-	|-- model.py            // code for environment, agent, and predictor
-	|-- util.py             //
+    |-- customer_layers.py  // code for aggregation, PFI, and action
+    |-- encoder.py          // code for encoder
+    |-- main.py             // train and test
+    |-- model.py            // code for environment, agent, and predictor
+    |-- util.py             //
 
 |-- utils                   // 
     |-- preprocess_data.py  // preprocessing
-	|-- read_save_data.py   // processing data and saving them
+    |-- read_save_data.py   // processing data and saving them
 ```
 
 <br>
