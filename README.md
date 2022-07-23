@@ -1,5 +1,5 @@
 # CECP
-This is the source code for CECP, "Charge Prediction by Constitutive Elements Matching of Crimes", which has been accepted by IJCAI-2022.
+The source code and Appendix of our work "Charge Prediction by Constitutive Elements Matching of Crimes", IJCAI 2022. [https://www.ijcai.org/proceedings/2022/627](https://www.ijcai.org/proceedings/2022/627)
 
 <br>
 
@@ -51,3 +51,23 @@ cd model
 python main.py --dataset criminal --nclass 149
 ```
 
+<br>
+
+# Reference
+BibTex:
+```
+@inproceedings{ijcai2022-627,
+  title     = {Charge Prediction by Constitutive Elements Matching of Crimes},
+  author    = {Zhao, Jie and Guan, Ziyu and Xu, Cai and Zhao, Wei and Chen, Enze},
+  booktitle = {Proceedings of the Thirty-First International Joint Conference on
+               Artificial Intelligence, {IJCAI-22}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Lud De Raedt},
+  pages     = {4517--4523},
+  year      = {2022},
+  month     = {7},
+  note      = {Main Track}
+  doi       = {10.24963/ijcai.2022/627},
+  url       = {https://doi.org/10.24963/ijcai.2022/627},
+}
+```
